@@ -8,8 +8,8 @@ public class MainClass {
     public static void main(String[] args) {
 
         logger.info("Offline Phase has started");
-        String tarGzFilePath = "data/collection.tar.gz";
-        //String tarGzFilePath = "data/collection_subset_top10.tar.gz";
+        //String tarGzFilePath = "data/collection.tar.gz";
+        String tarGzFilePath = "data/collection_subset_top40000.tar.gz";
 
         // read flags from argv
         boolean process_data_flag = false;  // true if stemming and stopword removal must be applied

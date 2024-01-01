@@ -29,7 +29,7 @@ public class Spimi {
 
     private int doc_id_counter = 0;     // doc_id counter, useful for generating filenames
     private int chunk_id_counter = 0;   // chunk counter, useful for generating filenames
-    static final int  CHUNK_SIZE = 25000;   // number of documents for each chunk. BE CAREFUL, IT DEPENDS ON YOUR MACHINE
+    static final int  CHUNK_SIZE = 10000;   // number of documents for each chunk. BE CAREFUL, IT DEPENDS ON YOUR MACHINE
     static Logger logger = Logger.getLogger(Spimi.class.getName());
     private final boolean process_data_flag;    // true if stopword removal and stemming must be applied
 
